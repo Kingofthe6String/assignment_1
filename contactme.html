@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Me</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="Styles/styles.css">
+   </head>
+   <body>
+      <header>
+         <nav>
+            <a href="./index.html" style="margin: 3px;">HomePage</a> |
+            <a href="./aboutme.html" style="margin: 10px;">AboutMe</a> |
+            <a href="./contactme.html">ContactMe</a> |
+            <a href="./login.html">Login</a>
+         </nav>
+      </header>
+      <main>
+         <div class="container">
+            <h1 class="email">Shoot Me An Email!</h1>
+            <p>Contact me at: abcdefg@gmail.com or 123-456-7890</p>
+         </div>
+         <h2 class="contact">Wanna Contact Me?</h2>
+         <form action="./contactme.html" method="get">
+            <div class="form-row">
+               <label>
+               Email:
+               <input type="email" name="email" placeholder="Email Address" required>
+               </label>
+            </div>
+            <div class="form-row" id="phone">
+               <label>
+               Phone:
+               <input
+                  type="tel" 
+                  name="Phone" 
+                  required 
+                  placeholder="111-222-3333"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+               </label>
+            </div>
+            <div class="form-row">
+               <label>
+               Message:
+               <textarea name="message" cols="30" rows="10"></textarea>
+               </label>
+            </div>
+            <div class="form-row">
+               <label>
+                  Type of request:
+                  <select name="Type of request">
+                     <option value="Concern">Concern</option>
+                     <option value="Inquiry">Inquiry</option>
+                     <option value="Discussion">Discussion</option>
+                     <option value="Other">Other</option>
+                  </select>
+               </label>
+            </div>
+            <div class="yourself">
+              <h3 class="about">Tell Me A Bit About Yourself&#128513;</h3>
+              <div class="form-row">
+                <fieldset class="fieldset">
+                    <legend>Favorite Sport</legend>
+                    <label>
+                    <input type="radio" name="Favorite Sport" value="Pool">
+                    Pool
+                    </label>
+                    <label>
+                    <input type="radio" name="Favorite Sport" value="Hockey">
+                    Hockey
+                    </label>
+                    <label>
+                    <input type="radio" name="Favorite Sport" value="Tennis">
+                    Tennis
+                    </label>
+                </fieldset>
+              </div>
+              <div class="form-row">
+                <fieldset class="fieldset">
+                    <Legend>Favorite Instrument</Legend>
+                    <label>
+                    <input type="checkbox" name="Favorite Instrument">
+                    Guitar
+                    </label>
+                    <label>
+                    <input type="checkbox" name="Favorite Instrument">
+                    Drums
+                    </label>
+                    <label>
+                    <input type="checkbox" name="Favorite Instrument">
+                    Piano/Keys
+                    </label>
+                </fieldset>
+              </div>
+              <div class="form-row">
+                <label>
+                Pick Your Number
+                <input type="range" min="0" max="10" name="Pick Your Number">
+                </label>
+              </div>
+            </div>
+            <input type="submit" name="submit">
+         </form>
+      </main>
+   </body>
+</html>

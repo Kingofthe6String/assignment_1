@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Welcome Page Styling*/
+
+html {
+    font-size: 25px;
+}
+
+.background {
+    background-image: url('../images/2f75706c6f6164732f393430783533302f353938643661663333333036322e6a7067.jpg');
+    background-size: cover;
+}
+
+.Welcome {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 1200;
+    font-style: normal;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+video {
+    margin-left: 435px;
+}
+
+/*Contact Me Styling*/
+
+html {
+    font-size: 25px;
+}
+
+.email {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.contact {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.container {
+    background-color: rgb(0, 255, 255);
+    padding: 15px;
+    border: groove 5px;
+    border-color: black;
+    width: 700px;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.form-row {
+    text-align: center;
+    padding: 15px;
+}
+
+#phone {
+    margin-right: 2px;
+}
+
+label, textarea {
+    vertical-align: middle;
+}
+
+[type="email"], [type="tel"] {
+    padding: 5px;
+}
+
+.yourself {
+    background-color: rgb(90, 232, 8);
+    padding: 15px;
+    border: dashed 5px;
+    width: 1000px;
+    margin: auto;
+}
+
+.fieldset {
+    border-color: rgb(0, 0, 0);
+}
+
+/*About Me Styling*/
+
+h1, h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/*Login Page Styling*/
+
+[type=password] {
+    padding: 5px;
+    margin-right: 35px;
+}
+
+/*bootstrap styling*/
+
+.bootstrap-back {
+    background-color: aqua;
+}
