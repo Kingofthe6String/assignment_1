@@ -116,6 +116,14 @@ img {
     margin-right: 35px;
 }
 
+.container2 {
+    text-align: center;
+}
+
+[type=submit] {
+    padding: 5px;
+}
+
 /*bootstrap styling*/
 
 .bootstrap-back {
